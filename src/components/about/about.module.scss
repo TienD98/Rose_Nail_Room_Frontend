@@ -19,8 +19,6 @@
   @media (max-width: 700px) {
     background-position: 0% 41%;
   }
-
-  overflow: auto;
 }
 
 .h1About {
@@ -45,8 +43,10 @@
   }
 
   @media (max-width: 560px) {
-    font-size: 38px;
+    font-size: 34px;
+    margin-bottom: 0px;
   }
+  font-size: 38px;
 }
 
 .aboutTitle {
@@ -69,7 +69,7 @@
   display: flex;
   justify-content: center;
   height: 10vh;
-  margin: 0px 0px 20px;
+  margin: 10px 0px 20px;
 }
 
 .aboutH3 {
@@ -181,6 +181,7 @@
   @media (max-width: 560px) {
     font-size: 20px;
     font-family: playfair;
+    font-weight: 500;
   }
 }
 
@@ -222,6 +223,6 @@
   }
 
   @media (max-width: 560px) {
-    margin-top: 70px;
+    margin-top: 3%;
   }
 }

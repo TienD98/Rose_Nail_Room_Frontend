@@ -4,7 +4,7 @@
   margin: 0px;
   padding: 0px;
   overflow-y: auto;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .contact-content {
@@ -13,7 +13,6 @@
   flex-direction: column;
   margin: 0px;
   padding: 0px;
-  overflow: auto;
 }
 
 .top {
@@ -25,7 +24,6 @@
   padding: 00px;
   align-content: center;
   justify-content: center;
-  overflow: auto;
 }
 
 .bottom {
@@ -107,7 +105,6 @@
   display: block;
   margin: 0px;
   padding: 0px;
-  overflow: auto;
 }
 
 .title {
