@@ -1,0 +1,227 @@
+.root {
+  width: 100%;
+  height: 100vh;
+}
+
+.aboutRoot {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/pinkwallpaper.png);
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: transparent;
+  background-position: 50% 50%;
+
+  @media (max-width: 700px) {
+    background-position: 0% 41%;
+  }
+
+  overflow: auto;
+}
+
+.h1About {
+  font-size: 3.2em;
+}
+
+.aboutH2 {
+  text-align: center;
+  font-family: beauty;
+  color: #ea5671;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+
+  @media (max-width: 1920px) and (min-width: 1024px) {
+    font-size: 45px;
+  }
+
+  @media (max-width: 1024px) and (min-width: 560px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 38px;
+  }
+}
+
+.aboutTitle {
+  margin: 0px;
+  padding: 0px;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  @media (max-width: 560px) {
+    height: 8vh;
+  }
+}
+
+.subTitleAbout {
+  padding: 0px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  margin: 0px 0px 20px;
+}
+
+.aboutH3 {
+  margin: 0px;
+  display: flex;
+  font-family: playfair;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0px;
+  width: 66%;
+  text-align: center;
+  align-items: center;
+
+  @media (max-width: 1920px) and (min-width: 1024px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 1024px) and (min-width: 560px) {
+  }
+
+  @media (max-width: 560px) {
+    font-size: 15px;
+  }
+}
+
+.contentAbout {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+
+  @media (max-width: 1920px) and (min-width: 1024px) {
+    height: 65vh;
+  }
+
+  @media (max-width: 1024px) and (min-width: 560px) {
+    height: auto;
+  }
+
+  @media (max-width: 560px) {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+}
+
+.contentLeft {
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+
+  @media (max-width: 1920px) and (min-width: 1024px) {
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  @media (max-width: 1024px) and (min-width: 560px) {
+    font-size: 15px;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+.contentRight {
+  margin: 0px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+
+  @media (max-width: 1920px) and (min-width: 1024px) {
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  @media (max-width: 1024px) and (min-width: 560px) {
+    font-size: 15px;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+.aboutH3Left {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: beauty;
+  color: #ed6079;
+  font-weight: 400;
+
+  @media (max-width: 560px) {
+    font-size: 20px;
+    font-family: playfair;
+  }
+}
+
+.lottieGirl {
+  height: 200px;
+  width: 200px;
+
+  @media (max-width: 1024px) and (min-width: 560px) {
+  }
+
+  @media (max-width: 560px) {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.subtitleAbout {
+  color: #ed6079;
+}
+
+.aboutText {
+  font-family: playfair;
+  padding: 0px;
+  width: 80%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.joinButton {
+  text-align: center;
+
+  margin-top: auto;
+
+  @media (max-width: 1024px) and (min-width: 560px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 560px) {
+    margin-top: 70px;
+  }
+}

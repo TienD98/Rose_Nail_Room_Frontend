@@ -1,9 +1,10 @@
 import { createBoard } from '@wixc3/react-board';
-import App from '../../../App';
+import { Contact } from '../../../components/contact/contact';
 
 export default createBoard({
-    name: 'App',
-    Board: () => <App />,
+    name: 'Contact',
+    Board: () => <Contact />,
+    isSnippet: true,
     environmentProps: {
         windowWidth: 430,
         windowHeight: 932,
@@ -13,12 +14,5 @@ export default createBoard({
             bottom: 0,
             left: 0,
         },
-        canvasPadding: {
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-        },
     },
-    isSnippet: false,
 });
