@@ -27,7 +27,12 @@ export const Landing = ({ className }: LandingProps) => {
             <div className={styles['content-root']}>
                 <div className={classNames(styles.grid, styles['grid-nav'])}>
                     <div className={styles.navigator}>
-                        <p className={styles.service}>Home </p>
+                        <p className={styles.service} onClick={() => {
+                            window.open(
+                                'https://drive.google.com/file/d/1F78aC9UpkfVcmbKtznv3-Jjzt7Eq960C/view?usp=sharing',
+                                '_blank',
+                            );
+                        }}>Prices</p>
                         <p className={styles.service} onClick={() => scrollToId('servicePage')}>
                             Services
                         </p>

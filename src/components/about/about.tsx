@@ -71,15 +71,15 @@ export const About = ({ className }: AboutProps) => {
                         unwind and rejuvenate.
                     </p>
                 </div>
-                <div className={styles.joinButton}>
-                    <button
-                        onClick={() => {
-                            window.open('https://rosenailroom.setmore.com/rosenailroom', '_blank');
-                        }}
-                    >
-                        Book Your Appointment Now
-                    </button>
-                </div>
+            </div>
+            <div className={styles.joinButton}>
+                <button
+                    onClick={() => {
+                        window.open('https://rosenailroom.setmore.com/rosenailroom', '_blank');
+                    }}
+                >
+                    Book Your Appointment Now
+                </button>
             </div>
         </div>
     );
