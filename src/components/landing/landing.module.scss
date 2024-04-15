@@ -196,7 +196,8 @@
   color: black;
   margin-bottom: 40px;
 
-  @media (max-width: 431px) {}
+  @media (max-width: 431px) {
+  }
 
   @media (max-width: 1920px) and (min-width: 1101px) {
     width: 60%;
@@ -227,4 +228,14 @@
 
 .booknow-button {
   margin-right: 20px;
+}
+.priceButton {
+  display: none;
+  @media (max-width: 431px) {
+    display: block;
+    margin-top: 0%;
+  }
+}
+.serviceButton {
+  margin-bottom: 6%;
 }

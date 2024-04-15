@@ -27,12 +27,17 @@ export const Landing = ({ className }: LandingProps) => {
             <div className={styles['content-root']}>
                 <div className={classNames(styles.grid, styles['grid-nav'])}>
                     <div className={styles.navigator}>
-                        <p className={styles.service} onClick={() => {
-                            window.open(
-                                'https://drive.google.com/file/d/1F78aC9UpkfVcmbKtznv3-Jjzt7Eq960C/view?usp=sharing',
-                                '_blank',
-                            );
-                        }}>Prices</p>
+                        <p
+                            className={styles.service}
+                            onClick={() => {
+                                window.open(
+                                    'https://drive.google.com/file/d/1F78aC9UpkfVcmbKtznv3-Jjzt7Eq960C/view?usp=sharing',
+                                    '_blank',
+                                );
+                            }}
+                        >
+                            Prices
+                        </p>
                         <p className={styles.service} onClick={() => scrollToId('servicePage')}>
                             Services
                         </p>
@@ -74,9 +79,20 @@ export const Landing = ({ className }: LandingProps) => {
                             Experience personalized nail, eyelash, and wax services tailored to your
                             style and needs in our serene Tacoma studio.
                         </p>
-                        <button onClick={() => scrollToId('servicePage')}>
+                        <button
+                            onClick={() => scrollToId('servicePage')}
+                            className={styles.serviceButton}
+                        >
                             Explore Our Services
                         </button>
+                        <button className={styles.priceButton}
+                            onClick={() => {
+                                window.open(
+                                    'https://drive.google.com/file/d/1F78aC9UpkfVcmbKtznv3-Jjzt7Eq960C/view?usp=sharing',
+                                    '_blank',
+                                );
+                            }}>
+                            Our Prices</button>
                     </div>
                 </div>
             </div>

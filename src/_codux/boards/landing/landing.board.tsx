@@ -12,7 +12,7 @@ export default createBoard({
             left: 0,
             right: 0,
         },
-        windowWidth: 1423,
+        windowWidth: 430,
         windowHeight: 932,
     },
 });
