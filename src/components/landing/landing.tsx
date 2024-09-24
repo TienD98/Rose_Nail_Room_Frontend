@@ -31,7 +31,7 @@ export const Landing = ({ className }: LandingProps) => {
                             className={styles.service}
                             onClick={() => {
                                 window.open(
-                                    'https://drive.google.com/file/d/1F78aC9UpkfVcmbKtznv3-Jjzt7Eq960C/view?usp=sharing',
+                                    'https://drive.google.com/file/d/1PVWiXHxMV499_SFH8W3dVPR-cWJZskOI/view',
                                     '_blank',
                                 );
                             }}
